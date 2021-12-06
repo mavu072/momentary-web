@@ -11,3 +11,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/** Nav **/
+.app-logo {
+  position: absolute;
+  top: 4%;
+  left: 5%;
+}
+.app-settings-icon {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
+/** Input **/
+input[type=text] {
+  text-align: center;
+  width: 50%;
+  padding: 5px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 16px;
+}
+
+input[type=text]:focus {
+  outline: none;
+}
+
+.search-bar {
+  padding-top: 12%;
+}

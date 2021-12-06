@@ -1,27 +1,55 @@
 .App {
-  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 25vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+   animation: App-logo-spin infinite 20s linear;
   }
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #041E5A;
+  width: 100vw;
+  min-height: 15vh;
+  max-height: 15vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
+  font-size: calc(8px + 2vmin);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: white;
+}
+
+
+.App-main {
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+  justify-content: center;
+  max-width: 100vw;
+  min-height: 80vh;
+  max-height: 80vh;
+  background-image: url('./flat-mountains.svg');
+}
+
+.App-footer {
+  background-color: #041E5A;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 5vh;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  font-size: 11px;
+  overflow: hidden;
 }
 
 .App-link {
